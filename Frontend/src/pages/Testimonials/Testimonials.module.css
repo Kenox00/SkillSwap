@@ -1,0 +1,60 @@
+.container {
+    background-color: #f5f5f5;
+    padding: 4rem 2rem;
+  }
+  
+  .content {
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .title {
+    font-size: 2.5rem;
+    font-weight: 700;
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  
+  .elements {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 3rem;
+  }
+  
+  .element {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    text-align: center;
+  }
+  
+  .elementIcon {
+    max-width: 80px;
+    height: auto;
+    margin-bottom: 1.5rem;
+  }
+  
+  .elementTitle {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  
+  .testimonial {
+    background-color: #fff;
+    padding: 2rem;
+    border-radius: 0.5rem;
+    margin-top: 3rem;
+    text-align: center;
+  }
+  
+  .testimonial p {
+    font-size: 1.2rem;
+    font-style: italic;
+    margin-bottom: 1rem;
+  }
+  
+  .author {
+    font-size: 1rem;
+    font-weight: 600;
+  }

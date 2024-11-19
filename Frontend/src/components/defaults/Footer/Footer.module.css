@@ -1,0 +1,105 @@
+.footer {
+    width: 100%;
+    border-top: 1px solid #e5e7eb;
+    background-color: white;
+    padding: 2rem 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 1rem;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .brand {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    background-color: #6d28d9;
+    margin-right: 0.5rem;
+  }
+  
+  .brandName {
+    font-size: 1.25rem;
+    font-weight: 600;
+  }
+  
+  .subscribe {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .title {
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+  
+  .description {
+    font-size: 0.875rem;
+    color: #4b5563;
+    margin-bottom: 0.75rem;
+  }
+  
+  .form {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .input {
+    padding: 0.5rem 0.75rem;
+    border: 1px solid #d1d5db;
+    border-radius: 0.25rem;
+    outline: none;
+    min-width: 250px;
+  }
+  
+  .input:focus {
+    border-color: #6d28d9;
+    box-shadow: 0 0 0 2px rgba(109, 40, 217, 0.2);
+  }
+  
+  .button {
+    padding: 0.5rem 1rem;
+    background-color: black;
+    color: white;
+    border: none;
+    border-radius: 0.25rem;
+    cursor: pointer;
+    transition: background-color 0.2s;
+  }
+  
+  .button:hover {
+    background-color: #1f2937;
+  }
+  
+  /* Media Queries for Responsive Design */
+  @media (max-width: 768px) {
+    .container {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .brand {
+      margin-bottom: 1rem;
+    }
+  
+    .form {
+      flex-direction: column;
+    }
+  
+    .input {
+      width: 100%;
+    }
+  
+    .button {
+      width: 100%;
+    }
+  }

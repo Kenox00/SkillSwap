@@ -1,0 +1,71 @@
+.container {
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    align-items: center;
+    max-width: 1200px;
+    max-height: fit-content;
+    margin: 0 auto;
+    padding: 4rem 2rem;
+  }
+  
+  .content {
+    flex: 1;
+    margin-right: 3rem;
+  }
+  
+  .title {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+  }
+  
+  .subtitle {
+    font-size: 2rem;
+    font-weight: 600;
+    margin-bottom: 1.5rem;
+  }
+  
+  .description {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    margin-bottom: 2rem;
+  }
+  
+  .actions {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 2rem;
+  }
+  
+  .sectionTitle {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+  }
+  
+  .findPeople,
+  .joinCommunity {
+    background-color: #f5f5f5;
+    padding: 2rem;
+    border-radius: 0.5rem;
+  }
+  
+  .getStarted {
+    display: inline-block;
+    background-color: #8b0000;
+    color: #fff;
+    text-decoration: none;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.5rem;
+    margin-top: 1rem;
+  }
+  
+  .image {
+    flex: 1;
+  }
+  
+  .workshopImage {
+    max-width: 90%;
+    height: auto;
+  }
