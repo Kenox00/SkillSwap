@@ -1,0 +1,137 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f8f4f3;
+    padding: 20px;
+  }
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    background-color: #fff;
+    border: 1px solid #d7a4a1;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 24px;
+    width: 100%;
+    height: 100%;
+    max-width: 600px;
+    max-height: 400px;
+    box-sizing: border-box;
+  }
+  .logo {
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+  }
+  .formsAndtitle{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .header {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: flex-start;
+    margin-bottom: 16px;
+  }
+  
+  .circle {
+    width: 24px;
+    height: 24px;
+    background-color: #a0353a;
+    border-radius: 50%;
+    margin-right: 8px;
+  }
+  
+  .title {
+    font-size: 1.25rem;
+    font-weight: bold;
+    color: #333;
+  }
+  
+  .brand {
+    color: #a0353a;
+  }
+  
+  .form {
+    display: flex;
+    flex-direction: column;
+  }
+  .label {
+    font-size: 0.875rem;
+    color: #555;
+    margin-bottom: 4px;
+  }
+  
+  .input {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 8px;
+    font-size: 0.875rem;
+    margin-bottom: 16px;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  
+  .input:focus {
+    border-color: #a0353a;
+    outline: none;
+  }
+  
+  .actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .createAccount {
+    background: none;
+    border: none;
+    color: #555;
+    text-decoration: underline;
+    font-size: 0.875rem;
+    cursor: pointer;
+  }
+  
+  .signIn {
+    background-color: #a0353a;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 8px 16px;
+    font-size: 0.875rem;
+    cursor: pointer;
+  }
+  
+  .signIn:hover {
+    background-color: #832c2e;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 480px) {
+    .card {
+      padding: 16px;
+    }
+  
+    .title {
+      font-size: 1rem;
+    }
+  
+    .input {
+      font-size: 0.75rem;
+    }
+  
+    .signIn {
+      font-size: 0.75rem;
+    }
+  
+    .createAccount {
+      font-size: 0.75rem;
+    }
+  }
+  
